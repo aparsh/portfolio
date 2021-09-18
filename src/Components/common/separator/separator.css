@@ -1,0 +1,11 @@
+.separator{
+    background: linear-gradient(
+        to right,
+        #5C258D,
+        #4389A2); 
+
+    height: 6px;
+    width: 40%;
+    border-radius: 3px;
+    margin: 16px 0px;
+}

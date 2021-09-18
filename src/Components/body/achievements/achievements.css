@@ -1,0 +1,34 @@
+.achievements{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.achievement-list-item{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.achievement-certificate-button{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    background-color: aquamarine;
+    margin-left: 4px;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width:720px) {
+    .achievement-list-item{
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .achievement-certificate-button{
+        margin-left: 0px;
+    }
+}
