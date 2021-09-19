@@ -12,7 +12,7 @@ const ProjectsData = [
         about:"It is a React based single page web application for a restaurant. The website uses the redux principle like thunk to enhance the user experience. You can see the menu, details of a dish, featured items, can give feedback and so on. It is supported with json-server to display the data and the images. It is built using the principles of MVC. It is also equipped with some animations using the react-transition library and animation library.",
         tags:["reactjs", "json-server", "bootstrap"],
         github:"https://github.com/aparsh/Restraunt-React",
-        demo:"",
+        demo:"https://aparsh.github.io/Restraunt-React",
         image:require("../../images/donut.png").default
     },
     {
