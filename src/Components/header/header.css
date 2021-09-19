@@ -32,6 +32,10 @@
     color: blueviolet;
 }
 
+.logo-image{
+    height: 100px;
+}
+
 @media only screen and (max-width: 720px){
     .mobile-menu{
         display: flex;
@@ -41,5 +45,8 @@
     }
     .logo{
         font-size: 24px;
+    }
+    .logo-image{
+        height: 60px;
     }
 }

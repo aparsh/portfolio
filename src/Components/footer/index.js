@@ -3,7 +3,7 @@ import './footer.css'
 function Footer() {
     return (
         <div className="footer">
-            Made with love.
+            Made with react. <img src={require("../../images/icons/react.png").default} className="footer-icon"/>
         </div>
     )
 }

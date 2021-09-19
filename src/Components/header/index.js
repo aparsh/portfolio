@@ -7,7 +7,8 @@ function Header() {
     const [isOpen, setIsOpen] = useState(false);
     return (
         <div className="header">
-            <div className="logo">Aparsh</div>
+            <img src={require("../../images/promotion.jpg").default} className="logo-image"/>
+            <div className="logo">Portfolio</div>
             <div className="menu">
                 <div className="web-menu"><Web /></div>
                 <div className="mobile-menu">

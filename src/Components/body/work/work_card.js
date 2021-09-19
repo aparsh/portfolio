@@ -13,6 +13,13 @@ function WorkCard({ item }) {
                 <div className="work-description">
                     <p>{item.work}</p>
                 </div>
+                <div className="work-tags">
+                    {item.tags.map((tag) => {
+                        return(
+                            <label className="work-tag">{tag}</label>
+                        )
+                    })}
+                </div>
             </div>
         </div>
     )

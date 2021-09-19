@@ -4,10 +4,24 @@
     justify-content: center;
 }
 
+.achievement-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.achievement-list{
+    width: 50%;
+}
 .achievement-list-item{
-    font-size: 16px;
+    margin-top: -6px;
+    font-size: 18px;
     display: flex;
     align-items: center;
+}
+
+.achievement-image{
+    width: 40%;
 }
 
 .achievement-certificate-button{
@@ -21,11 +35,22 @@
 }
 
 @media only screen and (max-width:720px) {
+    .achievement-section{
+        flex-direction: column;
+    }
+
+    .achievement-image{
+        width: 80%;
+    }
+
+    .achievement-list{
+        width: 80%;
+    }
+
     .achievement-list-item{
         font-size: 16px;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
     }
 
     .achievement-certificate-button{

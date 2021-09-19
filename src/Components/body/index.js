@@ -13,17 +13,17 @@ function Body() {
             <section id='about'>
                 <About></About>
             </section>
-            <section id='projects'>
-                <Projects></Projects>
-            </section>
-            <section id='skills'>
-                <Skills></Skills>
-            </section>
             <section id='work'>
                 <Work></Work>
             </section>
             <section id='achievements'>
                 <Achievements></Achievements>
+            </section>
+            <section id='projects'>
+                <Projects></Projects>
+            </section>
+            <section id='skills'>
+                <Skills></Skills>
             </section>
             <section id='contact'>
                 <Contact></Contact>

@@ -13,11 +13,12 @@ function Contact() {
                     <p>Want to explore more? See my profiles.</p>
                     <SocialContact />
                 </div>
-                <div className="download">
+                {/* <div className="download">
                     <a download href="https://bit.ly/aparsh_gupta">
                        <i className="fas fa-cloud-download-alt"/> Download Resume
                     </a>
-                </div>
+                </div> */}
+                <img src={require("../../../images/resume_cartoon.jpg").default} className="contact-side-image"/>
             </div>
         </div>
     )
