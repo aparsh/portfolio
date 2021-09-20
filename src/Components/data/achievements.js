@@ -5,7 +5,7 @@ const AchievemntsData = [
     },
     {
         achievement:"Global rank 398 ✨ in Google Kickstart-E(2020)",
-        certificate:"https://drive.google.com/file/d/1xMeZLMOmA1v_aHaI1UvJbTJ1Ig2Y2-Cf/view?usp=sharing"
+        certificate:"https://drive.google.com/file/d/1hO8PndPBYbX41uDy7XffatTKYhRA5jGK/view?usp=sharing"
     },
     {
         achievement:"Global rank 284 in CodeAgon🎉",

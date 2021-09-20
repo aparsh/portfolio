@@ -9,7 +9,7 @@ function About() {
                 <div className="about-info">
                     Hi there <img src={require("../../../images/icons/hand.png").default} className="hand-icon"/>, I am
                     <br /><span className="info-name">Aparsh Gupta.</span><br />
-                    undergraduate @ IIT Patna, Electrical Engineering. I am a competitive programmer, web-developer and an active learner.
+                    B.Tech undergraduate @ <strong>IIT Patna</strong>. I am a competitive programmer, web-developer and an active learner.
                 </div>
                 <div className="about-image">
                     <img
